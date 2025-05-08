@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Library Book Finder</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+</head>
+<body>
+    <div class="container py-5">
+        <h1>Library Book Finder</h1>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search..."/>
+                    <button onclick="filterBooks()">Search</button>
+    </div>
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Genre</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody id="bookTable">
+        <tr>
+        <td>The Great Gatsby</td>
+        <td>F. Scott Fitzgerald</td>
+        <td>Classic</td>
+        <td class="available">Available</td>
+        </tr>
+        <tr>
+            <td>To Kill a Mockingbird</td>
+            <td>Harper Lee</td>
+            <td>Fiction</td>
+            <td class="checkedout">Checked Out</td>
+            </tr>
+            </tbody>
+            </table>
+            </div>
+            <script src="script.js"></script>
+</body>
+</html>
+
+
+    
